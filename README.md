@@ -200,7 +200,32 @@ Gradient Decent one of the most popular algorithm to perform optimization and by
 * MB-GD converges in fewer iterations than BDG because the weight are updated more frequently.
 
 
-# 12. Convolutional Neural Networks (CNN)
+# 12. Convolutional Neural Networks (Convnets or CNN)
+Convolutional Neural networks allow computers to see, in other words, Convnets are used to recognize images by transforming the original image through layers to a class scores. 
+
+CNNs, like neural networks, are made up of neurons with learnable weights and biases. 
+
+CNN was inspired by the visual cortex.
+
+Each neuron receives several inputs, takes a weighted sum over them, pass it through an activation function and responds with an output. 
+
+#### How Do Convolutional Neural Networks Work?
+There are four layered concepts we should understand in Convolutional Neural Networks:
+1. Convolution,
+2. ReLu,
+3. Pooling and
+4. Full Connectedness (Fully Connected Layer)
+
+**Convolutional layer:** When we use Feedforward Neural Networks (Multi Layer Perceptron) for image classification, there are many challenges with it. The most frustrating challenge is that, it introduces a lot of parameters, consider the video tutorial on CNN.
+To overcome this challenge Convolution Layer was introduced. it is assumed that, pixels that are spatially closer together will “cooperate” on forming a particular feature of interest much more than ones on opposite corners of the image. Also, if a particular (smaller) feature is found to be of great importance when defining an image’s label, it will be equally important, if this feature was found anywhere within the image, regardless of location.
+
+**ReLU Layer:** Rectified Linear Unit (ReLU) transform function only activates a node if the input is above a certain quantity, while the input is below zero, the output is zero, but when the input rises above a certain threshold, it has a linear relationship with the dependent variable. 
+* In this layer we remove every negative values from the filtered images and replaces it with zero’s
+* This is done to avoid the values from summing up to zero
+
+**Pooling Layer:** Pooling Layer performs a function to reduce the spatial dimensions of the input, and the computational complexity of our model. And it also controls Overfitting. It operates independently on every depth slice of the input. There are different functions such as Max pooling, average pooling, or L2-norm pooling. However, Max pooling is the most used type of pooling which only takes the most important part (the value of the brightest pixel) of the input volume.
+
+**Fully Connected Layer:** Fully connected layers connect every neuron in one layer to every neuron in another layer. The last fully-connected layer uses a softmax activation function for classifying the generated features of the input image into various classes based on the training dataset.
 
 
 # 13. Recurrent Neural Networks (RNN)
