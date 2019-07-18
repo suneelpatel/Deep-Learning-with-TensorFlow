@@ -175,6 +175,29 @@ Deep Network have more number of neurons, more number of neurons also facilitate
 
 
 # 11. Gradient Decent
+Gradient Decent one of the most popular algorithm to perform optimization and by far the most common way to optimize neural networks.
+
+* In GD optimization, we compute the cost gradient based on the complete training set, hence, we sometimes also call it a batch Gradient Decent.
+* In case of very large dataset, using GD can be quite costly since we need to calculate the gradients for the whole dataset to perform just one update.
+* Batch gradient decent can be very slow and is hard to control for datasets that don’t fit in memory.
+* Batch gradient decent also doesn’t allow us to update our model online, i.e. with new example on the run.
+
+#### Batch Gradient Decent
+* In GD optimization, we compute the cost gradient based on the complete training set, hence, we sometimes also call it a batch Gradient Decent.
+* In case of very large dataset, using GD can be quite costly since we need to calculate the gradients for the whole dataset to perform just one update.
+* Batch gradient decent can be very slow and is hard to control for datasets that don’t fit in memory.
+* Batch gradient decent also doesn’t allow us to update our model online, i.e. with new example on the run.
+
+#### Stochastic Gradient Decent
+* SDG eliminates the redundancy by performing one update at a time and therefore is usually much faster. It can also be used for online training.
+* The term “Stochastic” comes from the fact that the gradient based on single training sample is a “Stochastic approximation” of the “true” cost gradient.
+* Due to it stochastic nature, the path towards the global cost minimum is not “direct” as in GD, but may go “zig-zag” if we are visualizing the cost surface in a 2D space.
+
+#### Mini-batch Gradient Decent
+* Mini-batch gradient decent (MB-GD) a compromise between Batch Gradient Decent (BGD) and Stochastic Gradient Decent (SGD).
+* In MB-GD, we update the model based on smaller groups of training samples (mini-batch).
+* Therefore, instead of computing the gradient from  1 sample (Stochastic Gradient Decent) or all n training sample (Batch Gradient Decent), we compute the gradient from 1<k<n training samples.
+* MB-GD converges in fewer iterations than BDG because the weight are updated more frequently.
 
 
 # 12. Convolutional Neural Networks (CNN)
