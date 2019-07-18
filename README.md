@@ -108,11 +108,11 @@ The input values are presented to the perceptron, and if the predicted output is
 
 Because SLP is a linear classifier and if the cases are not linearly separable the learning process will never reach a point where all the cases are classified properly. The most famous example of the inability of perceptron to solve problems with linearly non-separable cases is the XOR problem.
 
-**Weights** 	The weight determine the slope of the classifier line, bias allows us to shift the line towards left or right.
+**Weights** The weight determine the slope of the classifier line, bias allows us to shift the line towards left or right.
 
-**Bias**	The threshold thing. Normally bias treated as another weighted input with input values x0 = 1
+**Bias** The threshold thing. Normally bias treated as another weighted input with input values x0 = 1
 
-**Gradient Descent**	The name for one commonly used optimization function that adjusts weights according to the error they caused is called “gradient descent.”
+**Gradient Descent** The name for one commonly used optimization function that adjusts weights according to the error they caused is called “gradient descent.”
 
 
 # 6. Multi Layer Perceptron
@@ -152,6 +152,16 @@ TensorBoard provides the visualization and tooling needed for machine learning e
 * Profiling TensorFlow programs
 
 # 9. Linear Regression
+Linear Regression Model Using TensorFlow
+Linear Regression Model is used for predicting the unknown value of a variable (Dependent Variable) from the known value of another variables (Independent Variable) using linear regression equation as shown below:
+	
+		Y = b + wX
+	
+	Therefore, for creating a linear model, you need:
+		Dependent or Output Variable (Y)
+		Slope Variable (w)
+		Y – Intercept or Bias (b)
+		Independent or Input Variable (X)
 
 
 # 10. Deep Network
