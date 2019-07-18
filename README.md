@@ -92,9 +92,20 @@ Activation functions are an extremely important feature of the artificial neural
 
 
 # 4. Perceptorn
+Perceptron is a fundamental unit of the neural network which takes weighted inputs, process it and capable of performing binary classifications.
+
+The Perceptron is a linear model used for binary classification. It models the neurons. It receives n inputs (corresponding to each feature). It then sums those inputs, applies a transformation and produce an output. It has two functions, Summation and Transformation (activation)
+
+In the modern sense, the Perceptron is an algorithm for learning a binary classifier called a threshold function: a function that maps its input (a real-valued vector) to an output value (a single binary value).
 
 
 # 5. Single Layer Perceptron
+
+Weights 	The weight determine the slope of the classifier line, bias allows us to shift the line towards left or right.
+
+Bias	The threshold thing. Normally bias treated as another weighted input with input values x0 = 1
+
+Gradient Descent	The name for one commonly used optimization function that adjusts weights according to the error they caused is called “gradient descent.”
 
 
 # 6. Multi Layer Perceptron
