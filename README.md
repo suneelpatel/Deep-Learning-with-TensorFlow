@@ -78,6 +78,17 @@ A neural network’s main function it to receive a set of inputs, perform progre
 
 
 # 3. Activation Function
+Activation or Transformer Function translates the input into outputs. It uses threshold to produce output.
+
+Activation functions are an extremely important feature of the artificial neural networks. They basically decide whether a neuron should be activated or not. Whether the information that the neuron is receiving is relevant for the given information or should it be ignored. 
+
+#### Important Activation Functions are:
+1. Linear or Identity Function
+2. Unit or Binary Step Function
+3. Sigmoid or Logistic Function
+4. TanH Function
+5. ReLU Function
+6. Softmax Function
 
 
 # 4. Perceptorn
