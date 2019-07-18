@@ -35,6 +35,29 @@ Deep learning mimics the way our brain functions i.e. it learns from experience.
 
 # 2. Neural Network
 
+### What is Neuorn?
+The neuron is the basic working unit of the brain, a specialized cell designed to transmit information to other nerve cells, muscle, or gland cells. Neurons are cells within the nervous system that transmit information to other nerve cells, muscle, or gland cells. Most neurons have a cell body, an axon, and dendrites.
+
+* **Soma (cell body)** — this portion of the neuron receives information. It contains the cell's nucleus.
+* **Dendrites** — these thin filaments carry information from other neurons to the soma. They are the "input" part of the cell.
+* **Axon** — this long projection carries information from the soma and sends it off to other cells. This is the "output" part of the cell. It normally ends with a number of synapses connecting to the dendrites of other neurons.
+
+Both dendrites and axons are sometimes referred to as nerve fibers.
+
+Axons vary in length a great deal. Some can be tiny, whereas others can be over 1 meter long. The longest axon is called the dorsal root ganglion (DRG), a cluster of nerve cell bodies that carries information from the skin to the brain. Some of the axons in the DRG travel from the toes to the brain stem — up to 2 meters in a tall person.
+
+#### Types of neurons
+Neurons can be split into types in different ways, for instance, by connection or function.
+##### Connection
+* ** Efferent neurons** — these take messages from the central nervous system (brain and spinal cord) and deliver them to cells in other parts of the body.
+* **Afferent neurons** — take messages from the rest of the body and deliver them to the central nervous system (CNS).
+* **Interneurons** — these relay messages between neurons in the CNS.
+
+###Function
+* **Sensory** — carry signals from the senses to the CNS.
+* **Relay** — carry signals from one place to another within the CNS.
+* **Motor** — carry signals from the CNS to muscles.
+
 
 # 3. Activation Function
 
