@@ -123,12 +123,33 @@ A multi-layer perceptron (MLP) has the same structure of a single layer perceptr
 #### Forward propagation:		
 Propagate inputs by adding all the weighted inputs and then computing outputs using sigmoid threshold.
 
-
 # 7. Tensor Flow
+TensorFlow is a free and open-source software library for dataflow and differentiable programming across a range of tasks. It is a symbolic math library, and is also used for machine learning applications such as neural networks.
 
+#### Easy model building
+TensorFlow offers multiple levels of abstraction so you can choose the right one for your needs. Build and train models by using the high-level Keras API, which makes getting started with TensorFlow and machine learning easy.
+
+If you need more flexibility, eager execution allows for immediate iteration and intuitive debugging. For large ML training tasks, use the Distribution Strategy API for distributed training on different hardware configurations without changing the model definition.
+
+#### Robust ML production anywhere
+TensorFlow has always provided a direct path to production. Whether it’s on servers, edge devices, or the web, TensorFlow lets you train and deploy your model easily, no matter what language or platform you use.
+
+Use TensorFlow Extended (TFX) if you need a full production ML pipeline. For running inference on mobile and edge devices, use TensorFlow Lite. Train and deploy models in JavaScript environments using TensorFlow.js.
+
+#### Powerful experimentation for research
+Build and train state-of-the-art models without sacrificing speed or performance. TensorFlow gives you the flexibility and control with features like the Keras Functional API and Model Subclassing API for creation of complex topologies. For easy prototyping and fast debugging, use eager execution.
+
+TensorFlow also supports an ecosystem of powerful add-on libraries and models to experiment with, including Ragged Tensors, TensorFlow Probability, Tensor2Tensor and BERT.
 
 # 8. Tensor Board
-
+### TensorBoard: TensorFlow's visualization toolkit
+TensorBoard provides the visualization and tooling needed for machine learning experimentation:
+* Tracking and visualizing metrics such as loss and accuracy
+* Visualizing the model graph (ops and layers)
+* Viewing histograms of weights, biases, or other tensors as they change over time
+* Projecting embeddings to a lower dimensional space
+* Displaying images, text, and audio data
+* Profiling TensorFlow programs
 
 # 9. Linear Regression
 
