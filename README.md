@@ -21,6 +21,16 @@ Learn Deep Learning from this repository which help you to understand clearly ab
 17. TFLearn
 
 # 1. Deep Learning Introdution
+Deep Learning is a branch of Machine Learning based on a set of algorithms that attempt to model high-level abstraction in the data by using a deep graph with multiple processing layers. It is composed of multiple linear and non-linear transformations.
+
+Deep learning mimics the way our brain functions i.e. it learns from experience.
+
+* A collection of statistical machine learning techniques used to learn feature hierarchies often based on artificial neural networks.
+
+* Deep learning is a specific approach used for building and training neural networks, which can perform task like recognizing objects from an image, understanding speech and languages, and playing board games.
+
+* An algorithm is considered to be deep if the input data passed through a series of nonlinearities or nonlinear transformation before become output.
+
 
 
 # 2. Neural Network
