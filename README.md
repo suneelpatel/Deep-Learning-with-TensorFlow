@@ -67,6 +67,14 @@ An action potential is created by the movement of electrically charged atoms (io
 
 Neurons at rest are more negatively charged than the fluid that surrounds them; this is referred to as the membrane potential. It is usually -70 millivolts (mV).
 
+### Neural Network
+A neural network is a series of algorithms that endeavors to recognize underlying relationships in a set of data through a process that mimics the way the human brain operates. Neural networks can adapt to changing input; so the network generates the best possible result without needing to redesign the output criteria.
+
+A Neural Network is a network of one or more neurons
+
+Neural Networks are a computation model that shares some properties with the animal brain where many simple units (neurons) are working in parallel with no centralized control unit.
+
+A neural network’s main function it to receive a set of inputs, perform progressively complex computations, and then use the output to solve a problem.
 
 
 # 3. Activation Function
