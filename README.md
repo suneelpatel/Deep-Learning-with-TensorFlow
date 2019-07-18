@@ -165,6 +165,13 @@ Linear Regression Model is used for predicting the unknown value of a variable (
 
 
 # 10. Deep Network
+Deep Network have more number of neurons, more number of neurons also facilitate better weight setting using backpropogation, more neurons add more weight to adjust. Using this Deep Networks are able to learn or say adjust their weight better, giving greater precision output. 
+
+#### How is it different?	
+* More Neurons than previous Networks
+* More complex way of connecting layers
+* Advancement of computing power
+* Automatic Feature Extraction
 
 
 # 11. Gradient Decent
