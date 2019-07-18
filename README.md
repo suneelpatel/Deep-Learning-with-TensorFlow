@@ -58,6 +58,16 @@ Neurons can be split into types in different ways, for instance, by connection o
 * **Relay** — carry signals from one place to another within the CNS.
 * **Motor** — carry signals from the CNS to muscles.
 
+#### How do neurons carry a message?
+If a neuron receives a large number of inputs from other neurons, these signals add up until they exceed a particular threshold.
+
+Once this threshold is exceeded, the neuron is triggered to send an impulse along its axon — this is called an action potential.
+
+An action potential is created by the movement of electrically charged atoms (ions) across the axon's membrane.
+
+Neurons at rest are more negatively charged than the fluid that surrounds them; this is referred to as the membrane potential. It is usually -70 millivolts (mV).
+
+
 
 # 3. Activation Function
 
