@@ -270,6 +270,11 @@ The context here was pretty simple and the last word ends up being sky all the t
 So, problems like Vanishing and Exploding Gradients do not exist and this makes LSTM networks handle long-term dependencies easily.
 
 # 14. Restricted Boltzmann Machine(RBM)
+### What are Restricted Boltzmann Machines?
+Restricted Boltzmann Machine is an undirected graphical model that plays a major role in Deep Learning Framework in recent times. It was initially introduced as Harmonium by Paul Smolensky in 1986 and it gained big popularity in recent years in the context of the Netflix Prize where Restricted Boltzmann Machines achieved state of the art performance in collaborative filtering and have beaten most of the competition.
+
+It is an algorithm which is useful for dimensionality reduction, classification, regression, collaborative filtering, feature learning, and topic modeling.
+
 
 
 # 15. Autoencoders
