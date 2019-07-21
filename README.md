@@ -309,6 +309,16 @@ The Two main Training steps are:
 ### What are Autoencoders?
 An autoencoder neural network is an Unsupervised Machine learning algorithm that applies backpropagation, setting the target values to be equal to the inputs. Autoencoders are used to reduce the size of our inputs into a smaller representation. If anyone needs the original data, they can reconstruct it from the compressed data.
 
+#### Applications of Autoencoders
+* **Image Coloring:** Autoencoders are used for converting any black and white picture into a colored image. Depending on what is in the picture, it is possible to tell what the color should be.
+
+* **Feature variation:** It extracts only the required features of an image and generates the output by removing any noise or unnecessary interruption.
+
+* **Dimensionality Reduction:** The reconstructed image is the same as our input but with reduced dimensions. It helps in providing the similar image with a reduced pixel value.
+
+* **Denoising Image:** he input seen by the autoencoder is not the raw input but a stochastically corrupted version. A denoising autoencoder is thus trained to reconstruct the original input from the noisy version.
+
+* **Watermark Removal:** It is also used for removing watermarks from images or to remove any object while filming a video or a movie.
 
 # 16. KERAS
 
