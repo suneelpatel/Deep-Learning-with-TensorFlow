@@ -229,6 +229,12 @@ To overcome this challenge Convolution Layer was introduced. it is assumed that,
 
 
 # 13. Recurrent Neural Networks (RNN)
+Recurrent Neural Networks (RNN) are a type of artificial neural network designed to recognize patterns in sequences of data, such as text, genomes, handwriting, spoken word, numerical time’s series data emanating from sensors, stock markets and government agencies.
+
+RNNs are deep nets that can capture the short and long term temporal dependencies in the data, for sequential data such as speech or text.
+
+Each neuron or unit of RNN uses its internal memory to maintain information about the previous input.
+Maintaining sequential information is very important for language processing because for predicting the next word in a sentence one needs to know which words came before it.
 
 
 # 14. Restricted Boltzmann Machine(RBM)
