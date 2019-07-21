@@ -245,7 +245,11 @@ There are some issues with Back-propagation such as:
 * Vanishing Gradient
 * Exploding Gradient
 
+#### Vanishing Gradient
+When making use of back-propagation the goal is to calculate the error which is actually found out by finding out the difference between the actual output and the model output and raising that to a power of 2.
 
+#### Exploding Gradient
+The working of the exploding gradient is similar but the weights here change drastically instead of negligible change. 
 # 14. Restricted Boltzmann Machine(RBM)
 
 
