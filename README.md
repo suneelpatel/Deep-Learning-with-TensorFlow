@@ -297,6 +297,13 @@ The Two main Training steps are:
 * Gibbs Sampling
 * Contrastive Divergence step
 
+#### The process from training to the prediction phase goes as follows:
+
+* Train the network on the data of all users
+* During inference-time, take the training data of a specific user
+* Use this data to obtain the activations of hidden neurons
+* Use the hidden neuron values to get the activations of input neurons
+* The new values of input neurons show the rating the user would give yet unseen movies
 
 # 15. Autoencoders
 
