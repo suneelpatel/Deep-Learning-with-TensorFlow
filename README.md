@@ -306,6 +306,8 @@ The Two main Training steps are:
 * The new values of input neurons show the rating the user would give yet unseen movies
 
 # 15. Autoencoders
+### What are Autoencoders?
+An autoencoder neural network is an Unsupervised Machine learning algorithm that applies backpropagation, setting the target values to be equal to the inputs. Autoencoders are used to reduce the size of our inputs into a smaller representation. If anyone needs the original data, they can reconstruct it from the compressed data.
 
 
 # 16. KERAS
