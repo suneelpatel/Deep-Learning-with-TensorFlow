@@ -288,6 +288,16 @@ At each hidden node, each input x is multiplied by its respective weight w. That
 Each hidden node receives the four inputs multiplied by their respective weights. The sum of those products is again added to a bias (which forces at least some activations to happen), and the result is passed through the activation algorithm producing one output for each hidden node.
 
 Now that you have an idea about how Restricted Boltzmann Machine works, let’s continue our Restricted Boltzmann Machine Tutorial and have a look at the steps involved in the training of RBM.
+
+#### Training of Restricted Boltzmann Machine
+The training of the Restricted Boltzmann Machine differs from the training of regular neural networks via stochastic gradient descent.
+
+The Two main Training steps are:
+
+* Gibbs Sampling
+* Contrastive Divergence step
+
+
 # 15. Autoencoders
 
 
