@@ -236,6 +236,15 @@ RNNs are deep nets that can capture the short and long term temporal dependencie
 Each neuron or unit of RNN uses its internal memory to maintain information about the previous input.
 Maintaining sequential information is very important for language processing because for predicting the next word in a sentence one needs to know which words came before it.
 
+### Training Recurrent Neural Networks
+
+Recurrent Neural Networks use backpropagation algorithm for training, but it is applied for every timestamp. It is commonly known as Back-propagation Through Time (BTT).
+
+There are some issues with Back-propagation such as:
+
+* Vanishing Gradient
+* Exploding Gradient
+
 
 # 14. Restricted Boltzmann Machine(RBM)
 
