@@ -275,8 +275,19 @@ Restricted Boltzmann Machine is an undirected graphical model that plays a major
 
 It is an algorithm which is useful for dimensionality reduction, classification, regression, collaborative filtering, feature learning, and topic modeling.
 
+#### Layers in Restricted Boltzmann Machine
+Restricted Boltzmann Machines are shallow, two-layer neural nets that constitute the building blocks of deep-belief networks. The first layer of the RBM is called the visible, or input layer, and the second is the hidden layer. Each circle represents a neuron-like unit called a node. The nodes are connected to each other across layers, but no two nodes of the same layer are linked.
 
+The restriction in a Restricted Boltzmann Machine is that there is no intra-layer communication. Each node is a locus of computation that processes input and begins by making stochastic decisions about whether to transmit that input or not.
 
+#### Working of Restricted Boltzmann Machine
+Each visible node takes a low-level feature from an item in the dataset to be learned. At node 1 of the hidden layer, x is multiplied by a weight and added to a bias. The result of those two operations is fed into an activation function, which produces the node’s output, or the strength of the signal passing through it, given input x.
+
+At each hidden node, each input x is multiplied by its respective weight w. That is, a single input x would have three weights here, making 12 weights altogether (4 input nodes x 3 hidden nodes). The weights between the two layers will always form a matrix where the rows are equal to the input nodes, and the columns are equal to the output nodes.
+
+Each hidden node receives the four inputs multiplied by their respective weights. The sum of those products is again added to a bias (which forces at least some activations to happen), and the result is passed through the activation algorithm producing one output for each hidden node.
+
+Now that you have an idea about how Restricted Boltzmann Machine works, let’s continue our Restricted Boltzmann Machine Tutorial and have a look at the steps involved in the training of RBM.
 # 15. Autoencoders
 
 
