@@ -250,6 +250,25 @@ When making use of back-propagation the goal is to calculate the error which is 
 
 #### Exploding Gradient
 The working of the exploding gradient is similar but the weights here change drastically instead of negligible change. 
+
+### Long Short-Term Memory Networks
+
+Long Short-Term Memory networks are usually just called “LSTMs”.
+
+They are a special kind of Recurrent Neural Networks which are capable of learning long-term dependencies.
+
+#### What are long-term dependencies?
+
+Many times only recent data is needed in a model to perform operations. But there might be a requirement from a data which was obtained in the past.
+
+Let’s look at the following example:
+
+Consider a language model trying to predict the next word based on the previous ones. If we are trying to predict the last word in the sentence say “The clouds are in the sky”.
+
+The context here was pretty simple and the last word ends up being sky all the time. In such cases, the gap between the past information and the current requirement can be bridged really easily by using Recurrent Neural Networks.
+
+So, problems like Vanishing and Exploding Gradients do not exist and this makes LSTM networks handle long-term dependencies easily.
+
 # 14. Restricted Boltzmann Machine(RBM)
 
 
