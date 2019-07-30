@@ -320,7 +320,48 @@ An autoencoder neural network is an Unsupervised Machine learning algorithm that
 
 * **Watermark Removal:** It is also used for removing watermarks from images or to remove any object while filming a video or a movie.
 
+
 # 16. KERAS
+
+**Keras** is a high-level neural networks API, written in Python and capable of running on top of TensorFlow, CNTK, or Theano. It was developed with a focus on enabling fast experimentation.
+
+##### Use Keras if you need a deep learning library that:
+* Allows for easy and fast prototyping (through user friendliness, modularity, and extensibility).
+* Supports both convolutional networks and recurrent networks, as well as combinations of the two.
+* Runs seamlessly on CPU and GPU.
+
+#### Why use Keras?
+There are countless deep learning frameworks available today. Why use Keras rather than any other? Here are some of the areas in which Keras compares favorably to existing alternatives.
+
+#### Keras prioritizes developer experience
+* Keras is an API designed for human beings, not machines. Keras follows best practices for reducing cognitive load: it offers consistent & simple APIs, it minimizes the number of user actions required for common use cases, and it provides clear and actionable feedback upon user error.
+* This makes Keras easy to learn and easy to use. As a Keras user, you are more productive, allowing you to try more ideas than your competition, faster -- which in turn helps you win machine learning competitions.
+* This ease of use does not come at the cost of reduced flexibility: because Keras integrates with lower-level deep learning languages (in particular TensorFlow), it enables you to implement anything you could have built in the base language. In particular, as tf.keras, the Keras API integrates seamlessly with your TensorFlow workflows.
+
+### Guiding principles
+User friendliness. Keras is an API designed for human beings, not machines. It puts user experience front and center. Keras follows best practices for reducing cognitive load: it offers consistent & simple APIs, it minimizes the number of user actions required for common use cases, and it provides clear and actionable feedback upon user error.
+
+* **Modularity**: A model is understood as a sequence or a graph of standalone, fully configurable modules that can be plugged together with as few restrictions as possible. In particular, neural layers, cost functions, optimizers, initialization schemes, activation functions and regularization schemes are all standalone modules that you can combine to create new models.
+
+* **Easy extensibility**: New modules are simple to add (as new classes and functions), and existing modules provide ample examples. To be able to easily create new modules allows for total expressiveness, making Keras suitable for advanced research.
+
+* **Work with Python**: No separate models configuration files in a declarative format. Models are described in Python code, which is compact, easier to debug, and allows for ease of extensibility.
+
+
+#### Composing Models in Keras:
+The focus of the keras is the idea of a model.
+
+There are two ways of composing models in Keras. They are as follow:
+* **Sequential Composition**
+* **Functional Composition**
+
+##### Sequential Composition:
+* A sequential model is a linear stack of layers.
+* Stacking Convolutional Layers one above the other, can be an example of sequential model.
+ 
+##### Functional Composition:
+* Functional composition models are created via the functional API.
+* Functional composition makes it possible to create complex models, such as acyclic graphs, or multi-output model.
 
 
 # 17. TFLearn
