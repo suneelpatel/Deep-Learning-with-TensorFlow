@@ -365,3 +365,18 @@ There are two ways of composing models in Keras. They are as follow:
 
 
 # 17. TFLearn
+**TFLearn:** Deep learning library featuring a higher-level API for TensorFlow.
+
+TFlearn is a modular and transparent deep learning library built on top of Tensorflow. It was designed to provide a higher-level API to TensorFlow in order to facilitate and speed-up experimentations, while remaining fully transparent and compatible with it.
+
+#### TFLearn features include:
+
+* Easy-to-use and understand high-level API for implementing deep neural networks, with tutorial and examples.
+* Fast prototyping through highly modular built-in neural network layers, regularizers, optimizers, metrics...
+* Full transparency over Tensorflow. All functions are built over tensors and can be used independently of TFLearn.
+* Powerful helper functions to train any TensorFlow graph, with support of multiple inputs, outputs and optimizers.
+* Easy and beautiful graph visualization, with details about weights, gradients, activations and more...
+* Effortless device placement for using multiple CPU/GPU.
+* The high-level API currently supports most of recent deep learning models, such as Convolutions, LSTM, BiRNN, BatchNorm, PReLU,  
+
+Residual networks, Generative networks... In the future, TFLearn is also intended to stay up-to-date with latest deep learning techniques.
